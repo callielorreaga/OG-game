@@ -32,7 +32,6 @@ export class GenerateCharacterService {
       Feeling: randomFeeling,
       Snack: this.generateSnack()
     }
-    console.log("character", character);
     this.character.next(character);
   };
 
